@@ -82,22 +82,3 @@ $(document).ready(function () {
   });
 });
 
-// Sign In
-// document.addEventListener("DOMContentLoaded", function() {
-//   var signInButton = document.querySelector('.btnLogin_popup');
-//   var container = document.getElementById('loginContainer');
-
-//   // Hiển thị hoặc ẩn container khi click vào nút Sign In
-//   signInButton.addEventListener('click', function() {
-//     container.style.display = (container.style.display === 'block') ? 'none' : 'block';
-//   });
-
-//   // Ẩn container khi click bên ngoài vùng đó
-//   document.addEventListener('click', function(event) {
-//     var isClickInsideContainer = container.contains(event.target) || signInButton.contains(event.target);
-//     if (!isClickInsideContainer) {
-//       container.style.display = 'none';
-//     }
-//   });
-// });
-
